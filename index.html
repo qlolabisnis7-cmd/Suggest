@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman HTML Sederhana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 1.5rem;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #e9ecef;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Selamat Datang di Halaman Saya</h1>
+        <p>Template dasar HTML5 yang bersih dan responsif</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Tentang Halaman Ini</h2>
+            <p>Ini adalah contoh struktur halaman HTML dasar yang mencakup header, bagian konten utama (main), dan footer. Halaman ini juga dilengkapi dengan CSS dasar untuk tampilan yang rapi.</p>
+        </section>
+
+        <section class="card">
+            <h2>Fitur Utama</h2>
+            <ul>
+                <li>Struktur HTML5 Standar</li>
+                <li>Desain Responsif</li>
+                <li>CSS Internal Sederhana</li>
+                <li>Interaksi JavaScript</li>
+            </ul>
+            <button onclick="sapaUser()">Klik Saya</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Halaman Web Saya. Dibuat dengan HTML5.</p>
+    </footer>
+
+    <script>
+        function sapaUser() {
+            alert('Halo! Terima kasih telah mengunjungi halaman ini.');
+        }
+    </script>
+
+</body>
+</html>
